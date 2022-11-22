@@ -1,0 +1,78 @@
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title> WEB PERTAMA </title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- link rel diatas buat menghubungkan antara html dan css -->
+</head>
+
+<body>
+  <header>
+    <h1 class="LOGO"> SDM </h1>
+    <nav>
+      <ul>
+        <li><a href="#TENTANG"> TENTANG </a></li>
+        <li><a href="mailto:oolav86@gmail.com"> KONTAK </a></li>
+      </ul>
+    </nav>
+    <button class="btn-cta" onclick="redirInstagram()"> FOLLOW SAYA </button>
+  </header>
+  <div class="container">
+    <div class="intro">
+      <h1>
+        <p class="tittle">BIRO SUMBER DAYA MANUSIA</P>
+      </h1>
+      <p class="description">SUBBAG KHIRDINLUR</P>
+      <img src="zukin 1.png" alt="zukin foto 1" class="img-foto" />
+    </div>
+  </div>
+  <div class="parallax">
+    <div class="tentang">
+      <p class="tittle">PERSYARATAN</P>
+      <p class="description">PDH, PTDH, DAN PENSIUN</P>
+      <div class="mt-10">
+        <button class="btn-cta" onclick="redirWhatsapp()"> Mari berkunjung</button>
+      </div>
+    </div>
+    <div class="container">
+      <div class="card" id="TENTANG">
+        <div class="card-item">
+          <img src="waktu.png" alt="icon 1" class="icon" />
+          <p class="card-tittle">BIRO SUMBER DAYA MANUSIA</P>
+          <p class="card-description">SUBBAG KHIRDINLUR</P>
+        </div>
+        <div class="card-item">
+          <img src="hotdeal.png" alt="icon 2" class="icon" />
+          <p class="card-tittle">BIRO SUMBER DAYA MANUSIA</P>
+          <p class="card-description">SUBBAG KHIRDINLUR</P>
+        </div>
+        <div class="card-item">
+          <img src="partner.png" alt="icon 3" class="icon" />
+          <p class="card-tittle">BIRO SUMBER DAYA MANUSIA</P>
+          <p class="card-description">SUBBAG KHIRDINLUR</P>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <p class="tittle">&copy; Subbag Khirdinlur Website 2022 </P>
+  </footer>
+
+  <script>
+
+    function redirInstagram() {
+      window.location.href = "https://instagram.com/val_olav"
+    }
+
+    function redirWhatsapp() {
+      window.location.href = "https://wa.me/+62895388673886"
+    }
+  </script>
+  <audio autoplay>>
+    <source src="audiojomblo.mp3" type="audio/mp3" </audio>
+</body>
+
+</html>
